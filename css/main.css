@@ -2,8 +2,8 @@
 html. body {
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	overflow-x: hidden;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 hr {
-	background-color: #EFCB68;
+	background-color: #efcb68;
 	margin-top: 7px;
 	margin-bottom: 1em;
 }
@@ -55,19 +55,19 @@ li {
 
 a {
 	text-decoration: none;
-	color: #BDDAA5;
+	color: #bddaa5;
 }
 
 a:hover{
-	color: #EFCB68;
-	text-shadow: #160C28;
+	color: #efcb68;
+	text-shadow: #160c28;
 }
 
 a:visited {
-	color:#373F51;
+	color:#373f51;
 }
 
-.headerLogo {
+.header_logo {
 	float: left;
 	min-width: 50px;
 	border-radius: 5px;
@@ -75,14 +75,14 @@ a:visited {
   	filter: saturate(50%);
 }
 
-.headerTitle {
+.header_title {
 	text-align: right;
 	position: relative;
-	color: #373F51;
+	color: #373f51;
 }
 
 .header p {
-	color: #373F51;
+	color: #373f51;
 }
 
 .featured {
@@ -100,8 +100,8 @@ footer {
 	position: absolute;
 	text-align: center;
 	margin-bottom: 0;
-	background-color: #EFCB68;
-	color:#373F51;
+	background-color: #efcb68;
+	color:#373f51;
 	font-size: 0.5em;
 	padding: 2%;
 }

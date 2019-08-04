@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 400px){
-	.headerLogo {
+	.header_logo {
 		width: 30%;
 	}
 	.nav {
@@ -23,7 +23,7 @@
 	    -webkit-transform: translate(0, 0);
 	  	transform: translate(0, 0);
 	}
-	.navItem {
+	.nav_item {
 	    display: list-item;
 	    border-bottom: 1px solid #E0E0E0;
 	    width: 100%;
@@ -32,10 +32,10 @@
 }
 
 @media screen and (min-width: 401px){
-	.headerLogo {
+	.header_logo {
 		width: 32%;
 	}
-	.headerTitle {
+	.header_title {
 		font-size: 1.2em;
 		padding-top: 5%;
 		padding-right: 10%;
@@ -43,10 +43,10 @@
 }
 
 @media screen and (min-width: 500px) {
-	.headerLogo {
+	.header_logo {
 		width: 7em;
 	}
-	.headerTitle {
+	.header_title {
 		font-size: 1.3em;
 		padding-top: 2%;
 	}
@@ -56,7 +56,7 @@
 }
 
 @media screen and (min-width: 700px) {
-	.navList {
+	.nav_list {
 		font-size: 1.1em;
 		text-align: right;
 	}
